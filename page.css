@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'Staatliches Regular';
+  src: url(fonts/Staatliches-Regular.ttf);
+}
+
+body {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  background-image: url(https://i.pinimg.com/originals/67/0a/64/670a64bf72220e22e1caa512daa77419.gif);
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+html {
+  background-color: black;
+}
+
+
+.header {
+  color: white;
+  font-family: 'Staatliches-Regular', Arial, Helvetica, sans-serif;
+  margin-left: 125px;
+  margin-top: 300px;
+  font-size: 75px;
+  
+  
+}
+
+.para {
+  color: white;
+  font-family: 'Staatliches-Regular', arial;
+  margin-left: 400px;
+  font-weight: bold;
+  
+
+}
+
+li {
+  margin-top: 30px;
+  color: White;
+  font-family: arial;
+  Margin-left: 550px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.aboutbout {
+  margin-top: 250px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: white;
+  font-family: 'Staatliches-Regular', arial;
+  font-weight: bold;
+  margin-left: 200px;
+  margin-right: 200px;
+  line-height: 25px;
+}
